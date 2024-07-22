@@ -1,0 +1,146 @@
+.wave {
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.1s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
+}
+#tsparticles {
+  position: fixed ;
+  background-repeat: no-repeat ;
+  background-size: cover ;
+  width: 100%;
+  height: 100%;
+}
+
+.home-header {
+  padding-top: 40px ;
+}
+
+.home-section {
+
+  position: relative;
+  z-index: -1;
+  background-image: var(--image-gradient);
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-bottom: 25px;
+  padding-top: 30px;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.home-content {
+  padding: 6rem 0 2rem;
+  color: whitesmoke;
+  text-align: left;
+  margin: 0 auto; /* Center content */
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.heading {
+  font-size: 2.4em;
+  padding-left: 50px;
+}
+
+.heading-name {
+  font-size: 2.5em;
+  padding-left: 45px;
+}
+
+.main-name {
+  color: #caa11a;
+}
+
+.Typewriter__wrapper {
+  font-size: 2.2em;
+  color: #caa11a;
+  font-weight: 600;
+}
+
+.Typewriter__cursor {
+  font-size: 2.4em;
+  color: #caa11a;
+}
+
+.img-fluids {
+  
+  position: relative;
+  bottom: 0;
+  left: 0;
+}
+
+@media (max-width: 767px) {
+  .Typewriter__wrapper {
+    font-size: 1.4em;
+    font-weight: 500;
+    position: absolute;
+  }
+
+  .Typewriter__cursor {
+    display: none;
+  }
+
+  
+}
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.btn-email {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color:#caa11a;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-email a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-email:hover {
+  background-color: #6b550d;
+}
+
+.btn-email:focus {
+  outline: none;
+}

@@ -1,0 +1,107 @@
+/* Projects.css */
+
+.project-section {
+  background-color: rgb(4, 10, 32);
+  margin-top: 30px;
+  color: #ffc506;
+  padding: 32px;
+}
+
+.project-title {
+  color: white;
+  margin: 36px 0;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  gap: 24px;
+}
+
+.spanWork {
+  color: #c7a63b;
+}
+
+.project-card {
+  color: #ffc506;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 70%;
+  height: 400px;
+  background-color: #1f2020;
+  position: relative;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.5s;
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+.project-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #cab160;
+  opacity: 0.6;
+  transition: opacity 0.5s;
+  z-index: 1;
+}
+/* .project-card:hover::after{
+  background-color: transparent;
+} */
+.project-card:hover::before {
+  opacity: 0;
+}
+
+.flex-end {
+  margin-left: 0;
+}
+
+.project-image {
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: sepia(100%);
+  z-index: 0;
+}
+
+.project-card-title {
+  margin: 16px;
+  font-size: 1.5rem;
+  z-index: 2;
+  position: relative;
+}
+
+.project-subtitle {
+  margin: 0 16px;
+  font-size: 1.25rem;
+  color: white;
+  z-index: 2;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .project-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, auto);
+  }
+
+}
+
+.scroll-animation {
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.scroll-animation.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
