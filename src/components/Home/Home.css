@@ -92,7 +92,10 @@
 }
 
 .img-fluids {
-  
+  /* box-shadow: -4px 9px 101px 63px #caa11a;
+-webkit-box-shadow: -4px 9px 101px 63px #caa11a;
+-moz-box-shadow: -4px 9px 101px 63px #caa11a; */
+
   position: relative;
   bottom: 0;
   left: 0;
