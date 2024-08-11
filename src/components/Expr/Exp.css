@@ -1,63 +1,9 @@
-.experience {
-  padding: 20px;
-}
 
-.vertical-timeline {
-  position: relative;
-  margin: 20px 0;
-}
-
-.vertical-timeline-element {
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: 20px;
-}
-
-.vertical-timeline-element-icon {
-  position: relative;
-  flex-shrink: 0;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: #faa507;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  margin-right: 20px;
-}
-
-.icon {
-  font-size: 20px;
-}
-
-.vertical-timeline-element-content {
-  max-width: 600px;
-}
-
-.vertical-timeline-element-date {
-  font-size: 14px;
-  color: #888;
-  margin-bottom: 5px;
-}
-
-.vertical-timeline-element-title {
-  font-family: 'Lato', sans-serif;
-  font-weight: bold;
-  color: orange;
-  margin: 0;
-}
-
-.vertical-timeline-element-subtitle {
-  font-family: 'Lato', sans-serif;
-  font-weight: bold;
-  color: orange;
-  margin: 5px 0;
-}
-
+.vertical-timeline-element-title,
+.vertical-timeline-element-subtitle,
 .para {
-  font-family: 'Lato', sans-serif;
-  font-weight: bold;
-  color: orange;
-  margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: orange;
+ 
 }
