@@ -1,9 +1,9 @@
 import "./Projects.css";
-import Todo from "./../../assets/project/Todo.png";
+import Todo from "./../../assets/project/firebase.png";
 import TravelList from "./../../assets/project/TravalList.png";
 import Food from "./../../assets/project/Food.png";
 import Weather from "./../../assets/project/Weather.png";
-import Blog from "./../../assets/project/Blog.png";
+import Blog from "./../../assets/project/fizzy.png";
 import Quiz from "./../../assets/project/Rquiz.png";
 import Movies from "./../../assets/project/Movies.png";
 import World from "./../../assets/project/World.png";
@@ -57,11 +57,11 @@ const works = [
   },
   {
     id: 6,
-    title: "Blog site",
-    description: "A web app that helps add and delete a post in blog website",
+    title: "E-Commerce",
+    description: "A web app that helps Buy products in online",
     subtitle: "Web App",
     img: Blog,
-    link: "https://github.com/Arun6381/blog-useContext-faker",
+    link: "https://github.com/Arun6381/e-comfizzystore",
 
     flex: "start",
   },
@@ -76,12 +76,12 @@ const works = [
   },
   {
     id: 8,
-    title: "Todo List",
+    title: "Firebase-crud app",
     description:
-      "A ToDo List application with drag-and-drop functionality for easy task reordering.",
-    subtitle: "ToDo List Drag-Drop",
+      "A curd  application with Google login and email login  functionality for easy Managing users.",
+    subtitle: "Image storing login signup",
     img: Todo,
-    link: "https://github.com/Arun6381/dragtodo-drop",
+    link: "https://github.com/Arun6381/fire-store-movcoll",
     flex: "end",
   },
 ];

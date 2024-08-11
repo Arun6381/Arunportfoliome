@@ -17,7 +17,7 @@ import {
   SiTailwindcss,
   SiPug,
 } from "react-icons/si";
-
+import { IoLogoFirebase } from "react-icons/io5";
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
@@ -61,6 +61,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPug />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <IoLogoFirebase />
       </Col>
     </Row>
   );

@@ -1,7 +1,7 @@
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { GrDocumentPdf } from "react-icons/gr";
 import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
-import { RiSignalWifiErrorFill } from "react-icons/ri";
+// import { RiSignalWifiErrorFill } from "react-icons/ri";
 import pdf from "./../../assets/Arun Resume.pdf";
 import "./Footer.css";
 
@@ -60,7 +60,7 @@ function Footer() {
               <GrDocumentPdf />
             </a>
           </li>
-          <li className="social-icons">
+          {/* <li className="social-icons">
             <a
               href="/NotFound"
               style={{ color: "#caa11a" }}
@@ -69,7 +69,7 @@ function Footer() {
             >
               <RiSignalWifiErrorFill />
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>
