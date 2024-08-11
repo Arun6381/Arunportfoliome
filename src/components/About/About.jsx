@@ -4,7 +4,7 @@ import Toolstack from "./Toolstack";
 import Aboutcard from "./AboutCard";
 import home from "../../assets/home.png";
 import "./About.css";
-import Experience from "../Expr/Exprence";
+
 function About() {
   return (
     <Container fluid className="about-section">
@@ -41,11 +41,6 @@ function About() {
           <strong className="oraange">Tools</strong>&nbsp;I use
         </h1>
         <Toolstack />
-
-        <h1 className="project-heading">
-          <strong className="oraange">Educ</strong>tion
-        </h1>
-        <Experience />
       </Container>
     </Container>
   );
