@@ -82,9 +82,9 @@
 .logo {
   color: #caa11a ;
   font-weight: bolder;
-  font-size: xx-large;
+  font-size: x-large;
   height: 1.4em !important;
-  width: 2.5em !important;
+  width: 2em !important;
 }
 
 .navbar-nav .nav-link {
@@ -114,7 +114,12 @@
   position: relative;
   z-index: 1;
 }
-
+.nav-namess{
+  font-weight: bolder;
+  font-size: x-large;
+  height: 1.4em !important;
+  width: 2.5em !important;
+}
 .navbar-nav .nav-item a::after {
   content: "";
   position: relative;

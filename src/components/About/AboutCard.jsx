@@ -10,9 +10,17 @@ function AboutCard() {
             Hi Everyone, I am <span className="oraange">Arun Kumar </span>
             from <span className="oraange"> Coimbatore, India.</span>
             <br />
-            I have completed BSc in Computer Science at NGMC Coimbatore.
+            Build a real-world project using{" "}
+            <span className="oraange">
+              React, Node.js, Express, MongoDB, Firebase, and GraphQL.
+            </span>
+            This showcases your full stack skills and problem-solving abilities,
+            making your portfolio more impactful.
+            <br />I have completed BSc in{" "}
+            <span className="oraange">Computer Science</span> at{" "}
+            <span className="oraange">NGMC Coimbatore.</span>
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from coding, some other activities that, I like to do!
           </p>
           <ul>
             <li className="about-activity">
@@ -24,7 +32,7 @@ function AboutCard() {
             </li>
           </ul>
 
-          <p style={{ color: "#ebd282 " }}>
+          <p style={{ color: " #caa11a" }}>
             " Experience is the name everyone gives to their mistakes. "
           </p>
           <footer className="blockquote-footer"> Oscar Wilde</footer>

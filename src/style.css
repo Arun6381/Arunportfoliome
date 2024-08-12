@@ -29,3 +29,12 @@
 .blockquote-footer {
   color: #e2c564 !important;
 }
+::-moz-selection { /* Code for Firefox */
+color: white;
+  background: #caa11a ;
+}
+
+::selection {
+  color: white;
+  background: #caa11a ;
+}

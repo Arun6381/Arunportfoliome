@@ -8,7 +8,9 @@ color:#caa11a;
   background-image: var(--section-background-color) !important;
   color: white !important;
 }
-
+.blockquote-footer{
+  color:#caa11a !important ;
+}
 .tech-icons {
   font-size: 4.5em !important;
   margin: 15px !important;

@@ -81,12 +81,13 @@
 }
 
 .Typewriter__wrapper {
-  font-size: 2.2em;
+  font-size: 2em;
   color: #caa11a;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .Typewriter__cursor {
+  display: none;
   font-size: 2.4em;
   color: #caa11a;
 }
