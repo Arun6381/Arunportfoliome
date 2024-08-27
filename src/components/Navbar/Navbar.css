@@ -94,13 +94,17 @@
 }
 
 .nav-link {
+  margin-top:0;
   padding: 0.8rem 1rem !important;
 }
 
 @media (max-width: 767px) {
   .nav-link {
-    padding: 0.7rem 1rem !important;
+    margin-top: 3rem;
+    padding: 0.5rem 1rem !important;
+    margin-left: 50px;
   }
+  
 }
 
 .navbar-nav .nav-item {
