@@ -14,6 +14,7 @@
 }
 
 .navbar-toggler {
+   margin-top: 0px !important;
   position: relative !important;
   background-color: transparent !important;
   border-color: transparent !important;
@@ -83,7 +84,8 @@
   color: #caa11a ;
   font-weight: bolder;
   font-size: x-large;
-  height: 1.4em !important;
+  
+  height: 1.2em !important;
   width: 2em !important;
 }
 
@@ -121,6 +123,7 @@
 .nav-namess{
   font-weight: bolder;
   font-size: x-large;
+  
   height: 1.4em !important;
   width: 2.5em !important;
 }
