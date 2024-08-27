@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import "./error404.css";
+
 const NotFound = () => {
   const navigate = useNavigate();
   const handleHome = () => {

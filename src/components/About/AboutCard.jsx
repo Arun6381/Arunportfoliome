@@ -14,8 +14,8 @@ function AboutCard() {
             <span className="oraange">
               React, Node.js, Express, MongoDB, Firebase, and GraphQL.
             </span>
-            This showcases your full stack skills and problem-solving abilities,
-            making your portfolio more impactful.
+            This showcases my full stack skills and problem-solving abilities,
+            making my project more impactful.
             <br />I have completed BSc in{" "}
             <span className="oraange">Computer Science</span> at{" "}
             <span className="oraange">NGMC Coimbatore.</span>
