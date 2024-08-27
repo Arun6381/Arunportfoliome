@@ -18,7 +18,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
-  gap: 24px;
+  gap: 3rem;
 }
 
 .spanWork {
@@ -26,7 +26,7 @@
 }
 
 .project-card {
-  color: #ffc506;
+  /* existing styles */
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -40,6 +40,14 @@
   transition: all 0.5s;
   opacity: 0;
   transform: translateY(50px);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(255, 197, 6, 0.2), 0 6px 20px rgba(255, 197, 6, 0.19);
+}
+
+.project-card:hover {
+  box-shadow: 0 0 15px rgba(255, 197, 6, 0.8), 0 0 30px rgba(255, 197, 6, 0.6), 0 0 45px rgba(255, 197, 6, 0.4);
+  transform: translateY(0); /* Smooth transition on hover */
 }
 
 .project-card::before {
@@ -54,9 +62,7 @@
   transition: opacity 0.5s;
   z-index: 1;
 }
-/* .project-card:hover::after{
-  background-color: transparent;
-} */
+
 .project-card:hover::before {
   opacity: 0;
 }
@@ -66,12 +72,13 @@
 }
 
 .project-image {
-  height: 300px;
+  height: 250px; /* Adjusted height for better balance */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   filter: sepia(100%);
   z-index: 0;
+  border-radius: 10px 10px 0 0; /* Matches card's rounded corners */
 }
 
 .project-card-title {
@@ -89,12 +96,31 @@
   position: relative;
 }
 
+@media (max-width: 767px) {
+  .flex-end,
+  .flex-start {
+    margin-left: auto; /* Override the margin */
+    margin-right: auto; /* Center-align in mobile view */
+  }
+}
+
+/* Keep flex alignment active for desktop view */
 @media (min-width: 768px) {
+  .flex-end {
+    margin-left: 0; /* Align to the left */
+    margin-right: auto;
+  }
+
+  .flex-start {
+    margin-left: auto; /* Align to the right */
+    margin-right: 0;
+  }
+
+
   .project-grid {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, auto);
   }
-
 }
 
 .scroll-animation {

@@ -7,6 +7,8 @@ import Blog from "./../../assets/project/fizzy.png";
 import Quiz from "./../../assets/project/Rquiz.png";
 import Movies from "./../../assets/project/Movies.png";
 import World from "./../../assets/project/World.png";
+import Chart from "./../../assets/project/Chart.png";
+import Native from "./../../assets/project/Native.jpg";
 import useScrollAnimation from "./useScrollAnimation.jsx";
 const works = [
   {
@@ -29,13 +31,34 @@ const works = [
     flex: "start",
   },
   {
-    id: 3,
-    title: "TravelList",
-    description: "A website that provides pirated content for free.",
-    subtitle: "TravelList-react",
-    img: TravelList,
-    link: "https://github.com/Arun6381/travellist-react",
+    id: 9,
+    title: "Chart Application",
+    description:
+      "A website that provides group Chart with Friends through online.",
+    subtitle: "MERN Start",
+    img: Chart,
+    link: "https://github.com/Arun6381/group-chat-gql",
     flex: "end",
+  },
+  {
+    id: 10,
+    title: "All Openings",
+    description:
+      "A website that provides user to get all the company opening in online.",
+    subtitle: "Native App",
+    img: Native,
+    link: "https://github.com/Arun6381/react-native-job-board",
+    flex: "end",
+  },
+  {
+    id: 3,
+    title: "Firebase-crud app",
+    description:
+      "A curd  application with Google login and email login  functionality for easy Managing users.",
+    subtitle: "Image storing login signup",
+    img: Todo,
+    link: "https://github.com/Arun6381/fire-store-movcoll",
+    flex: "start",
   },
   {
     id: 4,
@@ -44,7 +67,7 @@ const works = [
     subtitle: "Movie Local Review",
     img: Movies,
     link: "https://github.com/Arun6381/movie-local-review",
-    flex: "end",
+    flex: "start",
   },
   {
     id: 5,
@@ -53,17 +76,17 @@ const works = [
     subtitle: "Weather app using Leaflet",
     img: Weather,
     link: "https://github.com/Arun6381/Clicked-Weather-app-leaflet",
-    flex: "start",
+    flex: "end",
   },
   {
     id: 6,
     title: "E-Commerce",
     description: "A web app that helps Buy products in online",
-    subtitle: "Web App",
+    subtitle: "MERN Stack",
     img: Blog,
     link: "https://github.com/Arun6381/e-comfizzystore",
 
-    flex: "start",
+    flex: "end",
   },
   {
     id: 7,
@@ -72,17 +95,16 @@ const works = [
     subtitle: "Web App Using JSON server",
     img: Quiz,
     link: "https://github.com/Arun6381/quizz-using-context-reducer-json-server",
-    flex: "end",
+    flex: "start",
   },
   {
     id: 8,
-    title: "Firebase-crud app",
-    description:
-      "A curd  application with Google login and email login  functionality for easy Managing users.",
-    subtitle: "Image storing login signup",
-    img: Todo,
-    link: "https://github.com/Arun6381/fire-store-movcoll",
-    flex: "end",
+    title: "TravelList",
+    description: "A website that provides pirated content for free.",
+    subtitle: "TravelList-react",
+    img: TravelList,
+    link: "https://github.com/Arun6381/travellist-react",
+    flex: "start",
   },
 ];
 
@@ -100,7 +122,7 @@ function Projects() {
             onClick={() => window.open(work.link)}
             key={work.id}
             className={`project-card ${
-              work.flex === "end" ? "flex-end" : ""
+              work.flex === "end" ? "flex-end" : "flex-start"
             } scroll-animation`}
             ref={(el) => (elementsRef.current[index] = el)}
           >
