@@ -9,7 +9,7 @@ import { CgFileDocument } from "react-icons/cg";
 import Typewriter from "typewriter-effect";
 
 import "./Navbar.css";
-import pdf from "../../assets/Arun Resume.pdf";
+import pdf from "../../assets/ArunkumarsResume.pdf";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);

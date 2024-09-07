@@ -2,7 +2,7 @@ import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { GrDocumentPdf } from "react-icons/gr";
 import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 // import { RiSignalWifiErrorFill } from "react-icons/ri";
-import pdf from "./../../assets/Arun Resume.pdf";
+import pdf from "./../../assets/ArunkumarsResume.pdf";
 import "./Footer.css";
 
 function Footer() {
