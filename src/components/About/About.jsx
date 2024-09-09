@@ -4,6 +4,7 @@ import Toolstack from "./Toolstack";
 import Aboutcard from "./AboutCard";
 import home from "../../assets/home.png";
 import "./About.css";
+import Experience from "./Exprience";
 
 function About() {
   return (
@@ -32,6 +33,11 @@ function About() {
           </Col>
         </Row>
         <h1 className="project-heading">
+          Educ <strong className="oraange">ation</strong>
+        </h1>
+        <Experience />
+
+        <h1 className="project-heading">
           Skill <strong className="oraange">&nbsp;Set </strong>
         </h1>
 
@@ -40,6 +46,7 @@ function About() {
         <h1 className="project-heading">
           <strong className="oraange">Tools</strong>&nbsp;I use
         </h1>
+
         <Toolstack />
       </Container>
     </Container>

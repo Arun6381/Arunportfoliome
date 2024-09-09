@@ -11,6 +11,7 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NotFound from "./components/errer404/error404.jsx";
+import Projectdeatile from "./components/Projects/Projectdeatile.jsx";
 
 function App() {
   const [load, SetLoader] = useState(true);
@@ -34,6 +35,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/project" element={<Projects />} />
+            <Route path="/project-details" element={<Projectdeatile />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
           <Footer />
