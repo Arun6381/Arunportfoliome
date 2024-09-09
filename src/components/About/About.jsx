@@ -32,7 +32,7 @@ function About() {
           </Col>
         </Row>
         <h1 className="project-heading">
-          Professional <strong className="oraange">&nbsp;Skillset </strong>
+          Skill <strong className="oraange">&nbsp;Set </strong>
         </h1>
 
         <Techstack />
