@@ -2,6 +2,8 @@ import "./Projects.css";
 import Todo from "./../../assets/project/firebase.png";
 import Todo1 from "./../../assets/project/Todo1.png";
 import Todo2 from "./../../assets/project/Todo2.png";
+import Todo3 from "./../../assets/project/Todo3.png";
+import Todo4 from "./../../assets/project/Todo4.png";
 
 import TravelList from "./../../assets/project/TravalList.png";
 import Travel1 from "./../../assets/project/Travel1.png";
@@ -18,6 +20,7 @@ import Weather2 from "./../../assets/project/Weather2.png";
 import Blog from "./../../assets/project/fizzy.png";
 import Blog1 from "./../../assets/project/Fizy1.png";
 import Blog2 from "./../../assets/project/Fizy2.png";
+import Blog3 from "./../../assets/project/Fizy3.png";
 
 import Quiz from "./../../assets/project/Rquiz.png";
 import Reactq1 from "./../../assets/project/Reactq1.png";
@@ -90,7 +93,7 @@ const works = [
     description:
       "The Firebase-CRUD app is a user management application that leverages Firebase as the backend for handling CRUD operations. Users can register, log in using either Google authentication or email/password, and store user-related data with ease. It also features real-time updates, allowing users to interact with the app smoothly and efficiently.",
     subtitle: "User Management with Firebase",
-    img: [Todo, Todo1, Todo2],
+    img: [Todo, Todo1, Todo2, Todo3, Todo4],
     link: "https://github.com/Arun6381/fire-store-movcoll",
     flex: "start",
   },
@@ -120,7 +123,7 @@ const works = [
     description:
       "This E-Commerce application is a complete online store built using the MERN stack. Users can browse a wide range of products, add items to their cart, and complete the checkout process with secure payment options. The app features user authentication, a product recommendation engine, and real-time inventory tracking, providing an all-in-one shopping solution.",
     subtitle: "MERN Stack",
-    img: [Blog, Blog1, Blog2],
+    img: [Blog, Blog1, Blog2, Blog3],
     link: "https://github.com/Arun6381/e-comfizzystore",
     flex: "end",
   },
