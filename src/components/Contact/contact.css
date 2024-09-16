@@ -1,7 +1,7 @@
 /* Contact Page CSS */
-
 .body {
   font-family: 'Arial', sans-serif;
+  margin-top: 100px;
   background: transparent;
   display: flex;
   flex-direction: column;
@@ -11,26 +11,37 @@
   margin: 0;
   padding: 0;
 }
-.header{
-color: #d48610; 
-margin-bottom: 30px;
-}
-.span{
-    color: white;
-} 
-.email{
- color: white;
-text-decoration: none; 
-font-size: x-large;
 
+.header {
+  color: #d48610;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  text-align: center;
 }
-.btnsa{
-    margin-top: 40px; 
-    border: none;
-    border-radius: 50px;
-   padding: 10px;
-    background-color: #d48610;
+
+.span {
+  color: white;
 }
+
+.email {
+  color: white;
+  text-decoration: none;
+  font-size: x-large;
+}
+
+.btnsa {
+  margin-top: 40px;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  background-color: #d48610;
+  transition: background-color 0.3s ease;
+}
+
+.btnsa:hover {
+  background-color: #e3b477;
+}
+
 form {
   background: white;
   padding: 40px;
@@ -89,7 +100,6 @@ form input[type="submit"]:hover {
 }
 
 /* Responsive Design */
-
 @media (max-width: 600px) {
   form {
     padding: 20px;
@@ -102,5 +112,19 @@ form input[type="submit"]:hover {
   form input[type="submit"] {
     padding: 12px;
     font-size: 0.9rem;
+  }
+.body{
+    margin-top: 100px;
+}
+  .header {
+    font-size: 1.5rem;
+  }
+
+  .email {
+    font-size: large;
+  }
+
+  .btnsa {
+    padding: 8px 16px;
   }
 }
