@@ -119,9 +119,10 @@ function NavBar() {
             </Nav.Item>
             <Nav.Item>
               <Nav.Link
-                href="mailto:arunkumargobi12@gmail.com"
-                target="_blank"
-                rel="noopener noreferrer"
+                // href="mailto:arunkumargobi12@gmail.com"
+                as={Link}
+                to="/contact"
+                onClick={() => updateExpanded(false)}
               >
                 <BiSolidContact style={{ marginBottom: "2px" }} /> Contact Me
               </Nav.Link>

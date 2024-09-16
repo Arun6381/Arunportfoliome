@@ -1,0 +1,106 @@
+/* Contact Page CSS */
+
+.body {
+  font-family: 'Arial', sans-serif;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.header{
+color: #d48610; 
+margin-bottom: 30px;
+}
+.span{
+    color: white;
+} 
+.email{
+ color: white;
+text-decoration: none; 
+font-size: x-large;
+
+}
+.btnsa{
+    margin-top: 40px; 
+    border: none;
+    border-radius: 50px;
+   padding: 10px;
+    background-color: #d48610;
+}
+form {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  width: 100%;
+}
+
+form label {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  display: block;
+  color: #333;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+  border-color: #f0a637;
+  outline: none;
+}
+
+form textarea {
+  resize: none;
+  height: 150px;
+}
+
+form input[type="submit"] {
+  background: #d48610;
+  color: white;
+  border: none;
+  padding: 14px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  width: 100%;
+}
+
+form input[type="submit"]:hover {
+  background: #e3b477;
+}
+
+/* Responsive Design */
+
+@media (max-width: 600px) {
+  form {
+    padding: 20px;
+  }
+
+  form label {
+    font-size: 0.9rem;
+  }
+
+  form input[type="submit"] {
+    padding: 12px;
+    font-size: 0.9rem;
+  }
+}
